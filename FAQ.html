@@ -50,40 +50,6 @@
         }
 </style>
 </head>
-<body>
-
-<h2>FAQ</h2>
-<button class="accordion">Sample</button>
-<div class="panel">
-  <p>Sample</p>
-</div>
-
-<button class="accordion">Sample</button>
-<div class="panel">
-  <p>Sample</p>
-</div>
-
-<button class="accordion">Sample</button>
-<div class="panel">
-  <p>Sample</p>
-</div>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
 
     </style>
 
@@ -109,20 +75,43 @@ for (i = 0; i < acc.length; i++) {
 
             <body>
         
-                <h2>FAQ</h2>
-                <button class="accordion">Sample</button>
+                <h1>FAQs</h1>
+
+                <br><br>
+
+
+                <h2>Spread</h2>
+
+                <button class="accordion">How does the virus spread?</button>
+
+                <div class="panel">
+                    
+                  <p>COVID-19 spreads when an infected individual exhales virus-containing droplets and extremely minute particles. Other individuals may inhale these droplets and particles, or they may settle on their eyes, noses, or mouths. They may contaminate surfaces they come into contact with in some cases. People who are within 6 feet of an infected person are most likely to contract the disease. <br><br>
+                      The main ways in which COVID 19 spreads are: <br><br>
+                    ·         When near an infected person who is exhaling small droplets and particles containing the virus, inhaling air. <br>
+                    ·         Having virus-carrying droplets and particles land in the eyes, nose, or mouth, particularly through splashes and sprays such as a cough or <br>
+                    ·         Touching the eyes, nose, or mouth with virus-infected hands. <br>
+                  </p>
+                </div>
+                
+                <button class="accordion">What is community spread?</button>
+                <div class="panel">
+                  <p>People afflicted with the virus have spread across a community, including some who are unsure how or where they were infected. Depending on local factors, each health agency assesses community spread in a different way. Please check your local health department's website for information on community spread in your region.
+                </p>
+                </div>
+                
+                <br><br>
+
+                <h2>Prevention</h2>
+                <button class="accordion">How can I protect myself?</button>
                 <div class="panel">
                   <p>Sample</p>
                 </div>
-                
-                <button class="accordion">Sample</button>
+
+                <button class="accordion">How can I protect myself?</button>
                 <div class="panel">
                   <p>Sample</p>
                 </div>
-                
-                <button class="accordion">Sample</button>
-                <div class="panel">
-                  <p>Sample</p>
         
     </div>
     </div>
