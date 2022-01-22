@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, Times, serif;
+    margin:0;
+}
+
+
+.header {
+    padding:6px;
+    text-align:center;
+    background-image: url("Covid.png");
+    color: black;
+}
+
+
+.header h1 {
+
+    font-size: 40px;
+    color: black;
+}
+
+.navbar {
+
+    overflow: hidden;
+    background-color: rgb(71, 68, 64);
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+.header
+
+.navbar a:hover {
+
+    background-color: rgb(255, 251, 0);
+    color: black;
+    
+}
+
+.row {
+    
+    display: -ms-flexbox;
+    display:flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.side {
+   
+    -ms-flex: 30%;
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.fakeimg {
+    
+    background-color: #aaa;
+    width: 100%;
+    padding:20px;
+}
+
+.footer {
+    padding:20px;
+    text-align:center;
+    background:#ddd; 
+    line-height: 0.01;
+    bottom: 0;
+}
+
+@media screen and (max-width:700px) {
+    .row {
+        flex-direction:column;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
